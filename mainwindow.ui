@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>746</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ALT Lab Book</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout" columnstretch="0,1">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="addNewExpButton">
+      <property name="text">
+       <string>Add new &amp;experiment</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" rowspan="2">
+     <widget class="QTabWidget" name="expTab">
+      <property name="currentIndex">
+       <number>-1</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QListView" name="expList"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>985</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Notebook</string>
+    </property>
+    <addaction name="newLabBookAc"/>
+    <addaction name="loadLabBookAc"/>
+    <addaction name="resetDefaultLabBookAc"/>
+    <addaction name="viewLabBookAc"/>
+    <addaction name="actionExport"/>
+   </widget>
+   <widget class="QMenu" name="menuDAtabase">
+    <property name="title">
+     <string>Database</string>
+    </property>
+    <addaction name="addNewDatabaseAc"/>
+    <addaction name="loadDatabaseAc"/>
+    <addaction name="viewDatabaseAc"/>
+    <addaction name="resetDatabaseAc"/>
+   </widget>
+   <widget class="QMenu" name="menuAnalysis">
+    <property name="title">
+     <string>Analysis</string>
+    </property>
+    <addaction name="manageAnalysisAc"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuDAtabase"/>
+   <addaction name="menuAnalysis"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="newLabBookAc">
+   <property name="text">
+    <string>&amp;New lab notebook</string>
+   </property>
+  </action>
+  <action name="loadLabBookAc">
+   <property name="text">
+    <string>&amp;Load lab notebook</string>
+   </property>
+  </action>
+  <action name="loadDatabaseAc">
+   <property name="text">
+    <string>&amp;Load database</string>
+   </property>
+  </action>
+  <action name="viewDatabaseAc">
+   <property name="text">
+    <string>&amp;View database</string>
+   </property>
+  </action>
+  <action name="addNewDatabaseAc">
+   <property name="text">
+    <string>&amp;New database</string>
+   </property>
+  </action>
+  <action name="setDefaultLabBookAc">
+   <property name="text">
+    <string>&amp;Set default lab notebook</string>
+   </property>
+  </action>
+  <action name="resetDefaultLabBookAc">
+   <property name="text">
+    <string>&amp;Reset default lab notebook</string>
+   </property>
+  </action>
+  <action name="setDatabaseAc">
+   <property name="text">
+    <string>&amp;Set default database</string>
+   </property>
+  </action>
+  <action name="resetDatabaseAc">
+   <property name="text">
+    <string>&amp;Reset default database</string>
+   </property>
+  </action>
+  <action name="viewLabBookAc">
+   <property name="text">
+    <string>&amp;View Lab notebook</string>
+   </property>
+  </action>
+  <action name="manageAnalysisAc">
+   <property name="text">
+    <string>&amp;Manage analysis</string>
+   </property>
+  </action>
+  <action name="exponantAc">
+   <property name="text">
+    <string>Exponant</string>
+   </property>
+  </action>
+  <action name="subscriptAc">
+   <property name="text">
+    <string>Subscript</string>
+   </property>
+  </action>
+  <action name="boldAc">
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </action>
+  <action name="underlineAc">
+   <property name="text">
+    <string>Underline</string>
+   </property>
+  </action>
+  <action name="italicAc">
+   <property name="text">
+    <string>Italic</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>&amp;Export</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>addNewExpButton</tabstop>
+  <tabstop>expTab</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
