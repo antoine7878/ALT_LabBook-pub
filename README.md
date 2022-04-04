@@ -24,7 +24,7 @@ Powered by C++ and Qt
 
 ## Installation
 
-Tested with Qt 5.15.2 MinGW 32-bit and Chemdraw professionnal 19.0
+Tested on windows 10, with Qt 5.15.2, MinGW 32-bit and Chemdraw professionnal 19.0
 
 ## Licence
 MIT
