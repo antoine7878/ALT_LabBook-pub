@@ -28,4 +28,5 @@ Tested with Qt 5.15.2 MinGW 32-bit and Chemdraw professionnal 19.0
 
 ## Licence
 MIT
+
 **Free Software, Hell Yeah!**
